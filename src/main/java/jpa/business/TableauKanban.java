@@ -19,6 +19,9 @@ public class TableauKanban {
 	
 	
 	
+	public TableauKanban() {
+		super();
+	}
 	public TableauKanban(List<Collaborateur> collaborateurs) {
 		super();
 		this.collaborateurs = collaborateurs;

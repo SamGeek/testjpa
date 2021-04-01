@@ -20,6 +20,10 @@ public class Section {
 	
 	
 	
+	public Section() {
+		super();
+	}
+
 	public Section(String libelle, TableauKanban tableauKanban) {
 		super();
 		this.tableaukanban = tableauKanban;

@@ -25,6 +25,11 @@ public class FicheKanban {
 	private int position ; 
 	private Section section ;
 	
+	
+	
+	public FicheKanban() {
+		super();
+	}
 	public FicheKanban(int temps_necessaire, String lieu, List<Tag> tags, String url, String note_explicative,
 			String libelle, Date date_butoire, int position, Section section) {
 		super();

@@ -16,6 +16,7 @@ public class CollaborateurInterne extends Collaborateur {
 		this.projet = projet;
 	}
 
+
 	public String getDepartement() {
 		return departement;
 	}

@@ -28,7 +28,10 @@ public class Tag {
 		this.libelle = libelle;
 	}
 	
-	
+	public Tag() {
+		super();
+	}
+
 	@javax.persistence.Id
 	@GeneratedValue
 	public Long getId() {

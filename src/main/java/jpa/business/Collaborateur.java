@@ -28,6 +28,10 @@ public class Collaborateur {
 		return id;
 	}
 	
+	public Collaborateur() {
+		super();
+	}
+
 	public Collaborateur(  String nom, String prenom, String email) {
 		super();	
 		this.nom = nom;
